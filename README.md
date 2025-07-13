@@ -11,7 +11,9 @@ In Onshape, we’ve started designing a laser-cut enclosure for the solder:bit G
 Go to [onshape.com](https://www.onshape.com/en/) to create an account  this can be a student account that gives you unlimited private designs, or an account for makers where all your designs are public.
 
 ### 2.	Create a personal copy of the workspace 
-Copy this [workspace](https://cad.onshape.com/documents/03e360eab7c280aec5a0fc8e/w/88428d9209ae85e1daa35f17/e/1467ba0b7f908cfe4e9b5ae8?renderMode=0&uiState=687371614301f30186208088) to your own account from the hamburger menu in the top right. Take a look at all the design files in the bottom tabs containing part studios and assemblies. The Case Assembly tab is where we will mostly be working from. We’ve inserted a 3D model of the PCB from KiCAD into this assembly and started designing parts around it 
+Navigate to this [workspace](https://cad.onshape.com/documents/03e360eab7c280aec5a0fc8e/w/88428d9209ae85e1daa35f17/e/1467ba0b7f908cfe4e9b5ae8?renderMode=0&uiState=687371614301f30186208088) and make a copy to your account to your own account from the hamburger menu in the top right. Take a look at all the design files in the bottom tabs containing part studios and assemblies. The Case Assembly tab is where we will mostly be working from. We’ve inserted a 3D model of the PCB from KiCAD into this assembly and started designing parts around it 
+
+![copying a workspace](media/workspace_copy.png)
 
 <details>
 <summary>TIP: Importing from KiCAD</summary>
@@ -29,34 +31,96 @@ In Onshape this scan then be imported with the plus icon in the bottom file tabs
 
 
 ### 3.	Understand the bottom panel design
-Enter the Acrylic Case part studio. Here, within the context of the main Case Assembly, we’ve designed the bottom panel of the solder:bit case. In the left panel’s feature list, you can see the operations needed to make the back panel: we defined a plane below the bottom surface, we sketched out the outline of the panel,  then we extruded it to make it 3D. you can double click on any of these features to see how they were performed, or even change them. Your job is to replicate these steps for the top panel.
+Enter the Acrylic Case part studio in the bottom tabs. Here, within the context of the main Case Assembly, we’ve designed the bottom panel of the solder:bit case. In the left panel’s feature list, you can see the operations needed to make the back panel: we defined a plane below the bottom surface, we sketched out the outline of the panel,  then we extruded it to make it 3D. You can double click on any of these features to see how they were performed, or even change them. Your job is to replicate these steps for the top panel.
 
 ### 4.	Create a new plane
 Using the Plane tool, create an offset plane 6mm from the top surface the PCB.
 
+<details>
+<summary>HINT: Creating an offset Plane</summary>
+
+![Creating a Plane](media/plane.gif)
+
+
+</details>
 
 ### 5.	Start a sketch
 On the plane we just created, start a sketch. Copy features from the PCB with the Use tool. Specifically, the outline, the 4  4mm mounting holes.
 
+<details>
+<summary>HINT: Sketching an using reference geometry</summary>
+
+![Creating a sketch](media/sketch.gif)
+
+If the context features aren't showing, make sure your've selected the right Assembly context in the top left dropdown.
+
+</details>
+
 ### 6.	Close the cutout for the battery
 Using the Line and Trim tool, fill in the cutout made for the battery cable.
+
+<details>
+<summary>HINT: Using trim</summary>
+
+![using the trim tool](media/trim.gif)
+
+</details>
 
 
 ### 7.	Create cut-outs for the buttons
 With the Use tool, project the button positions into the sketch, then Create 6x 7mm circles on each of these positions for the button cut-outs
 
+<details>
+<summary>HINT: Using the buttons to draw centred circles</summary>
+
+![using the circles tool](media/circles.gif)
+
+</details>
+
 
 ### 8.	Create cutouts for the L and R buttons and the power switch.
 After projecting features of the L and R buttons and power switch into the sketch, draw lines and rectangles make cutouts for these. you can use the dimensioning tools and constraints to make sure they are where you want them.
 
+<details>
+<summary>HINT: Creating cutouts for L,R and power</summary>
+
+![making rectangles](media/fillets.gif)
+
+</details>
+
+
 ### 9.	Clean up the edges and give the cut-outs a 3mm fillet.
 With the Trim tool remove any extra edges that create bounded regions that we don't want to extrude. Then use the fillet tool to round off any corners with a 3mm fillet.
+
+<details>
+<summary>HINT: Using Trim and Fillet</summary>
+
+![Using Trim and FIllet ets](media/fillets.gif)
+
+</details>
+
+Your sketch should look something like this now:
+![sketch](media/sketch.png)
 
 ### 10.	Extrude the sketch
 Complete the sketch with the green tick, and using the extrude tool, extrude the sketched region by 2mm
 
+<details>
+<summary>HINT: Using Extrude</summary>
+
+![Using Extrude](media/extrude.gif)
+
+</details>
+
 ### 11.	Insert the top panel into the assembly
 Go back to the assembly and use the insert tool to place the top panel into the assembly. If you don’t specify a position it will automatically place itself in the position it was in the design context. Click the green tick to confirm. To constrain the part and keep it from moving when you drag it, use the group tool to group it with the already fixed bottom panel.
+
+<details>
+<summary>HINT: Using insert</summary>
+
+![Using Insert](media/insert.gif)
+
+</details>
 
 ## Stretch Activities
 
