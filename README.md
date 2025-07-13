@@ -13,9 +13,19 @@ Go to [onshape.com](https://www.onshape.com/en/) to create an account  this can 
 ### 2.	Create a personal copy of the workspace 
 Copy this [workspace](https://cad.onshape.com/documents/03e360eab7c280aec5a0fc8e/w/88428d9209ae85e1daa35f17/e/1467ba0b7f908cfe4e9b5ae8?renderMode=0&uiState=687371614301f30186208088) to your own account from the hamburger menu in the top right. Take a look at all the design files in the bottom tabs containing part studios and assemblies. The Case Assembly tab is where we will mostly be working from. We’ve inserted a 3D model of the PCB from KiCAD into this assembly and started designing parts around it 
 
-<summary>Importing from KiCAD</summary>
+<details>
+<summary>TIP: Importing from KiCAD</summary>
 
-We've done this bit for you and have imported the board to start the design. However, if you're interested in doing this yourself, in KiCAD, from the PCB Editor, go to File > Export > STEP / GLB ... , and select STEP as the format. You may need to set the board outline tolerance to "standard (0.01 mm) for it to recognise the boundary
+We've done this bit for you and have imported the board to start the design. However, if you're interested in doing this yourself, in KiCAD, from the PCB Editor, go to File > Export > STEP / GLB ... , and select STEP as the format. You may need to set the board outline tolerance to "standard (0.01 mm) for it to recognise the boundary.
+
+![Exporting Step files from KiCAD](media/exporting_step.gif)
+
+In Onshape this scan then be imported with the plus icon in the bottom file tabs, Importing the step into a new part studio, then inserting the part studio into the assembly as rigid
+
+![Importing Step files into Onshape](media/importing_step.gif)
+
+
+</details>
 
 
 ### 3.	Understand the bottom panel design
