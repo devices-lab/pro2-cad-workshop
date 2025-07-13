@@ -122,6 +122,8 @@ Go back to the assembly and use the insert tool to place the top panel into the 
 
 </details>
 
+We're done! Laser cutting files can be exported from the Part Studio. Right click on the surface and export the DXF or DWG for the specific face to cut out. You can also export STL, STEP, or 3MF files directly from the parts for 3d printing.
+
 ## Stretch Activities
 
 ### **Easy**: Placing button caps
