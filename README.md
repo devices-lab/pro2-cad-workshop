@@ -98,7 +98,11 @@ With the Use tool, project the button positions into the sketch, then Create 6x 
 After projecting features of the L and R buttons and power switch into the sketch, draw lines and rectangles make cutouts for these. You can use the dimensioning tools and constraints to make sure they are where you want them.
 
 > [!TIP]  
-> [Constraints](https://cad.onshape.com/help/Content/constraints.htm?Highlight=constraints) are added automatically or manually when you make sketches, defining relationships between geometry elements. 
+> [Dimensions](https://cad.onshape.com/help/Content/sketch-tools-dimension.htm) can be specified in your sketches, defining relationships between geometry elements. Use the <img src="media/dimension.png" height="18" style="vertical-align: text-bottom;"> **Dimension (d)** tool to add dimensions to your sketch.
+>
+
+> [!TIP]  
+> [Constraints](https://cad.onshape.com/help/Content/constraints.htm?) are added automatically or manually when you make sketches, defining relationships between geometry elements. 
 >
 > ![constraints](media/constraints.png)
 
