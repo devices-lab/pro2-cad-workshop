@@ -10,6 +10,9 @@ In Onshape, we’ve started designing a laser-cut enclosure for the solder:bit G
 ### 1. Create a free Onshape account
 Go to [onshape.com](https://www.onshape.com/en/) to create an account. This can be a student account that gives you unlimited private designs, or an account for makers where all your designs are public.
 
+> [!NOTE]  
+> It can be much easier to use a mouse rather than a trackpad for working in CAD, even if you brought your own laptop, consider using the lab computers for a better experience.
+
 ### 2.	Create a personal copy of the workspace 
 Navigate to this [workspace](https://cad.onshape.com/documents/03e360eab7c280aec5a0fc8e/w/88428d9209ae85e1daa35f17/e/1467ba0b7f908cfe4e9b5ae8?renderMode=0&uiState=687371614301f30186208088) and make a copy to your own account from the hamburger menu in the top right. Take a look at all the design files in the bottom tabs containing part studios and assemblies. The Case Assembly tab is where we will mostly be working from. We’ve inserted a 3D model of the PCB from KiCad into this assembly and started designing parts around it.
 
