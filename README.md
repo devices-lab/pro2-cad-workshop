@@ -19,7 +19,7 @@ Navigate to this [workspace](https://cad.onshape.com/documents/03e360eab7c280aec
 ![copying a workspace](media/workspace_copy.png)
 
 <details>
-<summary>TIP: Importing from KiCad</summary>
+<summary>EXTRA TIP: Importing from KiCad</summary>
 
 We've done this bit for you and have imported the board to start the design. However, if you're interested in doing this yourself, in KiCad, from the PCB Editor, go to File > Export > STEP / GLB ... , and select STEP as the format. You may need to set the board outline tolerance to "standard (0.01 mm) for it to recognise the boundary.
 
@@ -58,7 +58,7 @@ Using the Plane tool, create an offset plane 6mm from the top surface the PCB.
 </details>
 
 ### 5.	Start a sketch
-On the plane we just created, start a sketch. Copy features from the PCB with the Use tool. Specifically, the outline, the 4 x 4mm mounting holes.
+On the plane we just created, start a sketch. Copy features from the PCB with the Use tool. Specifically, the outline and the 4 x 4mm mounting holes.
 
 <details>
 <summary>HINT: Sketching an using reference geometry</summary>
@@ -81,7 +81,10 @@ Using the Line and Trim tool, fill in the cutout made for the battery cable.
 
 
 ### 7.	Create cut-outs for the buttons
-With the Use tool, project the button positions into the sketch, then Create 6x 7mm circles on each of these positions for the button cut-outs
+With the Use tool, project the button positions into the sketch, then Create 6x 7mm circles on each of these positions for the button cut-outs.
+
+> [!TIP]  
+> <img src="media/construction.png" height="1em" style="vertical-align: text-bottom;"> [Construction](https://cad.onshape.com/help/Content/sketch-tools-construction.htm?Highlight=construction) geometry allows you to create geometry elements in your sketches that are not used for creating features. Use the construction tool (q) with the Use tool in order to project the button geometry into the sketch without having it affect future features. See the next step for what this should look like.
 
 <details>
 <summary>HINT: Using the buttons to draw centred circles</summary>
@@ -93,6 +96,9 @@ With the Use tool, project the button positions into the sketch, then Create 6x 
 
 ### 8.	Create cutouts for the L and R buttons and the power switch.
 After projecting features of the L and R buttons and power switch into the sketch, draw lines and rectangles make cutouts for these. You can use the dimensioning tools and constraints to make sure they are where you want them.
+
+> [!TIP]  
+> [Constraints](https://cad.onshape.com/help/Content/constraints.htm?Highlight=constraints) are added automatically or manually when you make sketches, defining relationships between geometry elements.
 
 <details>
 <summary>HINT: Creating cutouts for L,R and power</summary>
