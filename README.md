@@ -36,6 +36,16 @@ In Onshape this can then be imported with the plus icon in the bottom file tabs,
 ### 3.	Understand the bottom panel design
 Enter the Acrylic Case part studio in the bottom tabs. Here, within the context of the main Case Assembly, we’ve designed the bottom panel of the solder:bit case. In the left panel’s feature list, you can see the operations needed to make the back panel: we defined a plane below the bottom surface, we sketched out the outline of the panel,  then we extruded it to make it 3D. You can double click on any of these features to see how they were performed, or even change them. Your job is to replicate these steps for the top panel.
 
+<details>
+<summary>HINT: Can't see the PCB context?</summary>
+
+If you don't see the context of the PCB, you may need to select it from the assembly contexts drop down in the top right.
+
+![Seeing the context](media/context.png)
+
+
+</details>
+
 ### 4.	Create a new plane
 Using the Plane tool, create an offset plane 6mm from the top surface the PCB.
 
