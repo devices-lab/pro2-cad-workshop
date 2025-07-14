@@ -7,22 +7,22 @@
 In this workshop, we’ll be demonstrating how to use computer-aided design (CAD) tools to design enclosures for electronics.
 In Onshape, we’ve started designing a laser-cut enclosure for the solder:bit Gamepad with 3D printed spacers and button caps. You are given the task to design the rest of the enclosure insert and position the parts in the assembly to make sure everything fits.
 
-### 1. Create a free onshape account
-Go to [onshape.com](https://www.onshape.com/en/) to create an account  this can be a student account that gives you unlimited private designs, or an account for makers where all your designs are public.
+### 1. Create a free Onshape account
+Go to [onshape.com](https://www.onshape.com/en/) to create an account. This can be a student account that gives you unlimited private designs, or an account for makers where all your designs are public.
 
 ### 2.	Create a personal copy of the workspace 
-Navigate to this [workspace](https://cad.onshape.com/documents/03e360eab7c280aec5a0fc8e/w/88428d9209ae85e1daa35f17/e/1467ba0b7f908cfe4e9b5ae8?renderMode=0&uiState=687371614301f30186208088) and make a copy to your account to your own account from the hamburger menu in the top right. Take a look at all the design files in the bottom tabs containing part studios and assemblies. The Case Assembly tab is where we will mostly be working from. We’ve inserted a 3D model of the PCB from KiCAD into this assembly and started designing parts around it 
+Navigate to this [workspace](https://cad.onshape.com/documents/03e360eab7c280aec5a0fc8e/w/88428d9209ae85e1daa35f17/e/1467ba0b7f908cfe4e9b5ae8?renderMode=0&uiState=687371614301f30186208088) and make a copy to your own account from the hamburger menu in the top right. Take a look at all the design files in the bottom tabs containing part studios and assemblies. The Case Assembly tab is where we will mostly be working from. We’ve inserted a 3D model of the PCB from KiCad into this assembly and started designing parts around it.
 
 ![copying a workspace](media/workspace_copy.png)
 
 <details>
-<summary>TIP: Importing from KiCAD</summary>
+<summary>TIP: Importing from KiCad</summary>
 
-We've done this bit for you and have imported the board to start the design. However, if you're interested in doing this yourself, in KiCAD, from the PCB Editor, go to File > Export > STEP / GLB ... , and select STEP as the format. You may need to set the board outline tolerance to "standard (0.01 mm) for it to recognise the boundary.
+We've done this bit for you and have imported the board to start the design. However, if you're interested in doing this yourself, in KiCad, from the PCB Editor, go to File > Export > STEP / GLB ... , and select STEP as the format. You may need to set the board outline tolerance to "standard (0.01 mm) for it to recognise the boundary.
 
-![Exporting Step files from KiCAD](media/exporting_step.gif)
+![Exporting Step files from KiCad](media/exporting_step.gif)
 
-In Onshape this scan then be imported with the plus icon in the bottom file tabs, Importing the step into a new part studio, then inserting the part studio into the assembly as rigid
+In Onshape this can then be imported with the plus icon in the bottom file tabs, Importing the step into a new part studio, then inserting the part studio into the assembly as rigid
 
 ![Importing Step files into Onshape](media/importing_step.gif)
 
@@ -37,7 +37,7 @@ Enter the Acrylic Case part studio in the bottom tabs. Here, within the context 
 Using the Plane tool, create an offset plane 6mm from the top surface the PCB.
 
 <details>
-<summary>HINT: Creating an offset Plane</summary>
+<summary>HINT: Creating an offset plane</summary>
 
 ![Creating a Plane](media/plane.gif)
 
@@ -52,7 +52,7 @@ On the plane we just created, start a sketch. Copy features from the PCB with th
 
 ![Creating a sketch](media/sketch.gif)
 
-If the context features aren't showing, make sure your've selected the right Assembly context in the top left dropdown.
+If the context features aren't showing, make sure you've selected the right Assembly context in the top left dropdown.
 
 </details>
 
@@ -79,7 +79,7 @@ With the Use tool, project the button positions into the sketch, then Create 6x 
 
 
 ### 8.	Create cutouts for the L and R buttons and the power switch.
-After projecting features of the L and R buttons and power switch into the sketch, draw lines and rectangles make cutouts for these. you can use the dimensioning tools and constraints to make sure they are where you want them.
+After projecting features of the L and R buttons and power switch into the sketch, draw lines and rectangles make cutouts for these. You can use the dimensioning tools and constraints to make sure they are where you want them.
 
 <details>
 <summary>HINT: Creating cutouts for L,R and power</summary>
@@ -95,7 +95,7 @@ With the Trim tool remove any extra edges that create bounded regions that we do
 <details>
 <summary>HINT: Using Trim and Fillet</summary>
 
-![Using Trim and FIllet ets](media/fillets.gif)
+![Using Trim and Fillets](media/fillets.gif)
 
 </details>
 
@@ -130,7 +130,7 @@ We're done! Laser cutting files can be exported from the Part Studio. Right clic
 If you have finished designing the top panel, consider placing button caps in the assembly. We've already designed these for you in the Button part studio. Use the Insert tool in the Case Assembly to locate the buttons and place them. Insert the buttons "as rigid" so that they remain combined when moving them about, and use the "Fastened mate" to fix them to the positions in the cut-outs.
 
 ###  **Medium**: Place screws and nuts
-In the Assembly tab, use the Insert tool to insert parts from "Standard Context". Find an M4 x 16 Socket head screw and an M4 nut to got with it and place it in the assembly.
+In the Assembly tab, use the Insert tool to insert parts from "Standard Context". Find an M4 x 16 Socket head screw and an M4 nut to go with it and place it in the assembly.
 
 
 ### **Hard**: Design your own button caps
