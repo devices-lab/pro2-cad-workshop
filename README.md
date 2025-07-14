@@ -84,7 +84,7 @@ Using the Line and Trim tool, fill in the cutout made for the battery cable.
 With the Use tool, project the button positions into the sketch, then Create 6x 7mm circles on each of these positions for the button cut-outs.
 
 > [!TIP]  
-> [Construction](https://cad.onshape.com/help/Content/sketch-tools-construction.htm?Highlight=construction) geometry allows you to create geometry elements in your sketches that are not used for creating features. Use the <img src="media/construction.png" height="18" style="vertical-align: text-bottom;"> Construction tool (q) with the Use tool in order to project the button geometry into the sketch without having it affect future features. See the next step for what this should look like.
+> [Construction](https://cad.onshape.com/help/Content/sketch-tools-construction.htm?Highlight=construction) geometry allows you to create geometry elements in your sketches that are not used for creating features. Use the <img src="media/construction.png" height="18" style="vertical-align: text-bottom;"> **Construction (q)** tool with the Use tool in order to project the button geometry into the sketch without having it affect future features. See the next step for what this should look like.
 
 <details>
 <summary>HINT: Using the buttons to draw centred circles</summary>
@@ -98,7 +98,9 @@ With the Use tool, project the button positions into the sketch, then Create 6x 
 After projecting features of the L and R buttons and power switch into the sketch, draw lines and rectangles make cutouts for these. You can use the dimensioning tools and constraints to make sure they are where you want them.
 
 > [!TIP]  
-> [Constraints](https://cad.onshape.com/help/Content/constraints.htm?Highlight=constraints) are added automatically or manually when you make sketches, defining relationships between geometry elements.
+> [Constraints](https://cad.onshape.com/help/Content/constraints.htm?Highlight=constraints) are added automatically or manually when you make sketches, defining relationships between geometry elements. 
+>
+> ![constraints](media/constraints.png)
 
 <details>
 <summary>HINT: Creating cutouts for L,R and power</summary>
