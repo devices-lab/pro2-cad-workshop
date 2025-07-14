@@ -84,7 +84,7 @@ Using the Line and Trim tool, fill in the cutout made for the battery cable.
 With the Use tool, project the button positions into the sketch, then Create 6x 7mm circles on each of these positions for the button cut-outs.
 
 > [!TIP]  
-> <img src="media/construction.png" height="15" style="vertical-align: text-bottom;"> [Construction](https://cad.onshape.com/help/Content/sketch-tools-construction.htm?Highlight=construction) geometry allows you to create geometry elements in your sketches that are not used for creating features. Use the construction tool (q) with the Use tool in order to project the button geometry into the sketch without having it affect future features. See the next step for what this should look like.
+> [Construction](https://cad.onshape.com/help/Content/sketch-tools-construction.htm?Highlight=construction) geometry allows you to create geometry elements in your sketches that are not used for creating features. Use the <img src="media/construction.png" height="18" style="vertical-align: text-bottom;"> Construction tool (q) with the Use tool in order to project the button geometry into the sketch without having it affect future features. See the next step for what this should look like.
 
 <details>
 <summary>HINT: Using the buttons to draw centred circles</summary>
