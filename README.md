@@ -101,7 +101,7 @@ With the Use tool, project the button positions into the sketch, then Create 6x 
 
 
 ### 8.	Create cut-outs for the L and R buttons and the power switch.
-After projecting features of the L and R buttons and power switch into the sketch, draw lines and rectangles make cut-outs for these. You can use the dimensioning tools and constraints to make sure they are where you want them.
+After projecting features of the L and R buttons and power switch into the sketch, draw lines and rectangles make cut-outs for these. You can use the dimensioning tools and constraints to make sure the cut-outs are correctly positioned.
 
 > [!TIP]  
 > [Dimensions](https://cad.onshape.com/help/Content/sketch-tools-dimension.htm) can be specified in your sketches, defining relationships between geometry elements. Use the <img src="media/dimension.png" height="18" style="vertical-align: text-bottom;"> **Dimension (d)** tool to add dimensions to your sketch.
