@@ -4,17 +4,16 @@
 
 ## Workshop activity
 
-In this workshop, we’ll be demonstrating how to use computer-aided design (CAD) tools to design enclosures for electronics.
-In Onshape, we’ve started designing a laser-cut enclosure for the solder:bit Gamepad with 3D printed spacers and button caps. You are given the task to design the rest of the enclosure insert and position the parts in the assembly to make sure everything fits.
+In this workshop we’ll be demonstrating how to use computer-aided design (CAD) tools to design enclosures for electronics.
 
 ### 1. Create a free Onshape account
 Go to [onshape.com](https://www.onshape.com/en/) to create an account. This can be a student account that gives you unlimited private designs, or an account for makers where all your designs are public.
 
 > [!NOTE]  
-> We'll be using metric for this workshop, so if when creating an account you are prompted, we recommend selecting mm with all units.
+> We'll be using metric for this workshop, so when creating an account, if you are prompted, we recommend selecting mm with all units.
 
 > [!TIP]  
-> It can be much easier to use a mouse rather than a trackpad for working in CAD, even if you brought your own laptop, consider using the lab computers for a better experience.
+> It can be much easier to use a mouse rather than a trackpad for working in CAD, even if you brought your own laptop. Consider using the lab computers for a better experience.
 
 ### 2.	Create a personal copy of the workspace 
 Navigate to this [workspace](https://cad.onshape.com/documents/03e360eab7c280aec5a0fc8e/w/88428d9209ae85e1daa35f17/e/1467ba0b7f908cfe4e9b5ae8?renderMode=0&uiState=687371614301f30186208088) and make a copy to your own account from the hamburger menu in the top right. Take a look at all the design files in the bottom tabs containing part studios and assemblies. The Case Assembly tab is where we will mostly be working from. We’ve inserted a 3D model of the PCB from KiCad into this assembly and started designing parts around it.
@@ -28,7 +27,7 @@ We've done this bit for you and have imported the board to start the design. How
 
 ![Exporting Step files from KiCad](media/exporting_step.gif)
 
-In Onshape this can then be imported with the plus icon in the bottom file tabs, Importing the step into a new part studio, then inserting the part studio into the assembly as rigid
+In Onshape this can then be imported with the plus icon in the bottom file tabs, Importing the step into a new part studio, then inserting the part studio into the assembly as rigid.
 
 ![Importing Step files into Onshape](media/importing_step.gif)
 
@@ -64,7 +63,7 @@ Using the <img src="media/plane.png" height="18" style="vertical-align: text-bot
 On the plane we just created, start a <img src="media/sketchtool.png" height="18" style="vertical-align: text-bottom;"> **Sketch**. Copy features from the PCB with the <img src="media/use.png" height="18" style="vertical-align: text-bottom;"> **Use (u)** tool. Specifically, the outline and the 4 x 4mm mounting holes.
 
 > [!TIP]  
-> To set the set the view to be top-down so that you are face on with the sketch click on the top plane in the view cube in the top right, or press **n** on your keyboard.
+> To set the as top-down so that you are face on with the sketch click on the top plane in the view cube in the top right, or press **n** on your keyboard.
 
 <details>
 <summary>HINT: Sketching an using reference geometry</summary>
@@ -86,8 +85,8 @@ Using the <img src="media/line.png" height="18" style="vertical-align: text-bott
 </details>
 
 
-### 7.	Create cut-outs for the buttons
-With the Use tool, project the button positions into the sketch, then Create 6x 7mm circles on each of these positions for the button cut-outs.
+### 7.	Create the cut-outs for the buttons
+With the Use tool, project the button positions into the sketch, then Create 7mm circles on each of these positions for the button cut-outs.
 
 > [!TIP]  
 > [Construction](https://cad.onshape.com/help/Content/sketch-tools-construction.htm?Highlight=construction) geometry allows you to create geometry elements in your sketches that are not used for creating features. Use the <img src="media/construction.png" height="18" style="vertical-align: text-bottom;"> **Construction (q)** tool with the Use tool in order to project the button geometry into the sketch without having it affect future features. See the next step for what this should look like.
@@ -100,8 +99,8 @@ With the Use tool, project the button positions into the sketch, then Create 6x 
 </details>
 
 
-### 8.	Create cut-outs for the L and R buttons and the power switch.
-After projecting features of the L and R buttons and power switch into the sketch, draw lines and rectangles make cut-outs for these. You can use the dimensioning tools and constraints to make sure the cut-outs are correctly positioned.
+### 8.	Create cut-outs for the L/R buttons and the power switch.
+After projecting features of the L and R buttons and power switch into the sketch, draw lines and rectangles to make cut-outs for these. You can use the dimensioning tools and constraints to make sure the cut-outs are correctly positioned.
 
 > [!TIP]  
 > [Dimensions](https://cad.onshape.com/help/Content/sketch-tools-dimension.htm) can be specified in your sketches, defining relationships between geometry elements. Use the <img src="media/dimension.png" height="18" style="vertical-align: text-bottom;"> **Dimension (d)** tool to add dimensions to your sketch.
@@ -134,7 +133,7 @@ Your sketch should look something like this now:
 ![sketch](media/sketch.png)
 
 ### 10.	Extrude the sketch
-Complete the sketch with the green tick, and using the <img src="media/extrude.png" height="18" style="vertical-align: text-bottom;"> **Extrude (shift+e)** tool, extrude the sketched region by 2mm
+Complete the sketch with the green tick, and using the <img src="media/extrude.png" height="18" style="vertical-align: text-bottom;"> **Extrude (shift+e)** tool, extrude the sketched region by 2mm.
 
 <details>
 <summary>HINT: Using Extrude</summary>
@@ -156,9 +155,10 @@ Go back to the assembly and use the <img src="media/insert.png" height="18" styl
 We're done! Laser cutting files can be exported from the Part Studio. Right click on the surface and export the DXF or DWG for the specific face to cut out. You can also export STL, STEP, or 3MF files directly from the parts for 3d printing.
 
 ## Stretch Activities
+These activities are designed to push you beyond what we've explored in the previous walkthrough, and to allow you to continue exploring Onshape's features. Feel free to ask us if you need a hand or check out the [Onshape documentation](https://cad.onshape.com/help/Content/introduction.htm) for help.
 
 ### **Easy**: Placing button caps
-If you have finished designing the top panel, consider placing button caps in the assembly. We've already designed these for you in the Button part studio. Use the Insert tool in the Case Assembly to locate the buttons and place them. Insert the buttons "as rigid" so that they remain combined when moving them about, and use the "Fastened mate" to fix them to the positions in the cut-outs.
+If you have finished designing the top panel, consider placing button caps in the assembly. We've already designed these for you in the Button part studio. Use the Insert tool in the Case Assembly to locate the buttons and place them. Insert the buttons "as rigid" so that they remain combined when moving them about. Use the "Fastened mate" to fix them to the positions in the cut-outs.
 
 ###  **Medium**: Place screws and nuts
 In the Assembly tab, use the Insert tool to insert parts from "Standard Context". Find an M4 x 16 Socket head screw and an M4 nut to go with it and place it in the assembly.
