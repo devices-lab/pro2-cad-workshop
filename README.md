@@ -128,8 +128,9 @@ With the Trim tool remove any extra edges that create bounded regions that we do
 ![Using Trim and Fillets](media/fillets.gif)
 
 </details>
+</br>
 
-Your sketch should look something like this now:
+Your sketch might look something like this now
 ![sketch](media/sketch.png)
 
 ### 10.	Extrude the sketch
