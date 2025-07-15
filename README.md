@@ -158,14 +158,14 @@ We're done! Laser cutting files can be exported from the Part Studio. Right clic
 These activities are designed to push you beyond what we've explored in the previous walkthrough, and to allow you to continue exploring Onshape's features. Feel free to ask us if you need a hand or check out the [Onshape documentation](https://cad.onshape.com/help/Content/introduction.htm) for help.
 
 ### **Easy**: Placing button caps
-If you have finished designing the top panel, consider placing button caps in the assembly. We've already designed these for you in the Button part studio. Use the Insert tool in the Case Assembly to locate the buttons and place them. Insert the buttons "as rigid" so that they remain combined when moving them about. Use the "Fastened mate" to fix them to the positions in the cut-outs.
+If you have finished designing the top panel, consider placing button caps in the assembly. We've already designed these for you in the Button part studio. Use the Insert tool in the Case Assembly to locate the buttons and place them. Insert the buttons <img src="media/asrigid.png" height="18" style="vertical-align: text-bottom;"> **as rigid** so that they remain combined when moving them about. Use the <img src="media/fastened.png" height="18" style="vertical-align: text-bottom;"> **Fastened Mate** to fix them to the positions in the cut-outs.
 
 ###  **Medium**: Place screws and nuts
 In the Assembly tab, use the Insert tool to insert parts from "Standard Context". Find an M4 x 16 Socket head screw and an M4 nut to go with it and place it in the assembly.
 
 
 ### **Hard**: Design your own button caps
-Have a go at designing your own button caps in context. From the Assembly add a new Mate connector to one of the tops of the buttons. Click on the "Create new Part Studio in context" button on the right end of the toolbar. Select the new mate connector as the origin, and a new part studio should open with all the context of the assembly. Try sketching a profile of a button that you can use to make a solid of revolution with. By designing multiple parts, you can create buttons we can 3d print with different colours.
+Have a go at designing your own button caps in context. If you have already inserted the pre-designed button caps, delete one, and from the assembly add a new <img src="media/mateconnector.png" height="18" style="vertical-align: text-bottom;"> **Mate connector** to one of the tops of the buttons. Click on the <img src="media/create-new-partstudio.png" height="18" style="vertical-align: text-bottom;">  **Create new Part Studio in Context** button on the right end of the toolbar. Select the new mate connector as the origin, and a new part studio should open with all the context of the assembly. Try sketching a profile of a button that you can use to make a solid of revolution with. By designing multiple parts, you can create buttons we can 3d print with different colours.
 
 ### **Expert**: Make it your own
 Use the Onshape workspace as a starting ground to design your own additions to the solder:bit gamepad! E.g. A 3D printed accessory, a novel way to mount it or a way to make it more accessible. 
