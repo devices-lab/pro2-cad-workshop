@@ -170,6 +170,10 @@ Have a go at designing your own button caps in context. From the Assembly add a 
 ### **Expert**: Make it your own
 Use the Onshape workspace as a starting ground to design your own additions to the solder:bit gamepad! E.g. A 3D printed accessory, a novel way to mount it or a way to make it more accessible. 
 
+## Credits
+
+Thanks to John Vidler, Aron Eggens, and Steve Hodges of Lancaster Univeristy [Devices Lab](https://github.com/devices-lab) for help with design and content, everyone at [pro² network+](https://prosquared.org/), and Adam and Tom for the sanity checks.
+
 ## License
 
 This project is licensed under the GNU General Public License (GPL), version 3. This license allows you to use, modify, and redistribute the solder:bit Gamepad and any derivative works, but all such derivatives must also be licensed under the GPL.
