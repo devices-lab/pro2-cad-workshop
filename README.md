@@ -75,8 +75,8 @@ If the context features aren't showing, make sure you've selected the right Asse
 
 </details>
 
-### 6.	Close the cutout for the battery
-Using the <img src="media/line.png" height="18" style="vertical-align: text-bottom;"> **Line (l)** and <img src="media/trim.png" height="18" style="vertical-align: text-bottom;"> **Trim (m)** tool, fill in the cutout made for the battery cable.
+### 6.	Close the cut-out for the battery
+Using the <img src="media/line.png" height="18" style="vertical-align: text-bottom;"> **Line (l)** and <img src="media/trim.png" height="18" style="vertical-align: text-bottom;"> **Trim (m)** tool, fill in the cut-out made for the battery cable.
 
 <details>
 <summary>HINT: Using trim</summary>
@@ -100,8 +100,8 @@ With the Use tool, project the button positions into the sketch, then Create 6x 
 </details>
 
 
-### 8.	Create cutouts for the L and R buttons and the power switch.
-After projecting features of the L and R buttons and power switch into the sketch, draw lines and rectangles make cutouts for these. You can use the dimensioning tools and constraints to make sure they are where you want them.
+### 8.	Create cut-outs for the L and R buttons and the power switch.
+After projecting features of the L and R buttons and power switch into the sketch, draw lines and rectangles make cut-outs for these. You can use the dimensioning tools and constraints to make sure they are where you want them.
 
 > [!TIP]  
 > [Dimensions](https://cad.onshape.com/help/Content/sketch-tools-dimension.htm) can be specified in your sketches, defining relationships between geometry elements. Use the <img src="media/dimension.png" height="18" style="vertical-align: text-bottom;"> **Dimension (d)** tool to add dimensions to your sketch.
@@ -113,7 +113,7 @@ After projecting features of the L and R buttons and power switch into the sketc
 > ![constraints](media/constraints.png)
 
 <details>
-<summary>HINT: Creating cutouts for L,R and power</summary>
+<summary>HINT: Creating cut-outs for L,R and power</summary>
 
 ![making rectangles](media/fillets.gif)
 
