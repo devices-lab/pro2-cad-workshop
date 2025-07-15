@@ -11,6 +11,9 @@ In Onshape, we’ve started designing a laser-cut enclosure for the solder:bit G
 Go to [onshape.com](https://www.onshape.com/en/) to create an account. This can be a student account that gives you unlimited private designs, or an account for makers where all your designs are public.
 
 > [!NOTE]  
+> We'll be using metric for this workshop, so if when creating an account you are prompted, we recommend selecting mm with all units.
+
+> [!TIP]  
 > It can be much easier to use a mouse rather than a trackpad for working in CAD, even if you brought your own laptop, consider using the lab computers for a better experience.
 
 ### 2.	Create a personal copy of the workspace 
@@ -47,7 +50,7 @@ If you don't see the context of the PCB, you may need to select it from the asse
 </details>
 
 ### 4.	Create a new plane
-Using the Plane tool, create an offset plane 6mm from the top surface the PCB.
+Using the <img src="media/plane.png" height="18" style="vertical-align: text-bottom;"> **Plane** tool, create an offset plane 6mm from the top surface the PCB.
 
 <details>
 <summary>HINT: Creating an offset plane</summary>
@@ -58,7 +61,10 @@ Using the Plane tool, create an offset plane 6mm from the top surface the PCB.
 </details>
 
 ### 5.	Start a sketch
-On the plane we just created, start a sketch. Copy features from the PCB with the Use tool. Specifically, the outline and the 4 x 4mm mounting holes.
+On the plane we just created, start a <img src="media/sketchtool.png" height="18" style="vertical-align: text-bottom;"> **Sketch**. Copy features from the PCB with the <img src="media/use.png" height="18" style="vertical-align: text-bottom;"> **Use (u)** tool. Specifically, the outline and the 4 x 4mm mounting holes.
+
+> [!TIP]  
+> To set the set the view to be top-down so that you are face on with the sketch click on the top plane in the view cube in the top right, or press **n** on your keyboard.
 
 <details>
 <summary>HINT: Sketching an using reference geometry</summary>
@@ -70,7 +76,7 @@ If the context features aren't showing, make sure you've selected the right Asse
 </details>
 
 ### 6.	Close the cutout for the battery
-Using the Line and Trim tool, fill in the cutout made for the battery cable.
+Using the <img src="media/line.png" height="18" style="vertical-align: text-bottom;"> **Line (l)** and <img src="media/trim.png" height="18" style="vertical-align: text-bottom;"> **Trim (m)** tool, fill in the cutout made for the battery cable.
 
 <details>
 <summary>HINT: Using trim</summary>
@@ -115,7 +121,7 @@ After projecting features of the L and R buttons and power switch into the sketc
 
 
 ### 9.	Clean up the edges and give the cut-outs a 3mm fillet.
-With the Trim tool remove any extra edges that create bounded regions that we don't want to extrude. Then use the fillet tool to round off any corners with a 3mm fillet.
+With the Trim tool remove any extra edges that create bounded regions that we don't want to extrude. Then use the <img src="media/fillet.png" height="18" style="vertical-align: text-bottom;"> **Fillet (shift+f)** tool to round off any corners with a 3mm fillet.
 
 <details>
 <summary>HINT: Using Trim and Fillet</summary>
@@ -128,7 +134,7 @@ Your sketch should look something like this now:
 ![sketch](media/sketch.png)
 
 ### 10.	Extrude the sketch
-Complete the sketch with the green tick, and using the extrude tool, extrude the sketched region by 2mm
+Complete the sketch with the green tick, and using the <img src="media/extrude.png" height="18" style="vertical-align: text-bottom;"> **Extrude (shift+e)** tool, extrude the sketched region by 2mm
 
 <details>
 <summary>HINT: Using Extrude</summary>
@@ -138,7 +144,7 @@ Complete the sketch with the green tick, and using the extrude tool, extrude the
 </details>
 
 ### 11.	Insert the top panel into the assembly
-Go back to the assembly and use the insert tool to place the top panel into the assembly. If you don’t specify a position it will automatically place itself in the position it was in the design context. Click the green tick to confirm. To constrain the part and keep it from moving when you drag it, use the group tool to group it with the already fixed bottom panel.
+Go back to the assembly and use the <img src="media/insert.png" height="18" style="vertical-align: text-bottom;"> **Insert (i)** tool to place the top panel into the assembly. If you don’t specify a position it will automatically place itself in the position it was in the design context. Click the green tick to confirm. To constrain the part and keep it from moving when you drag it, use the <img src="media/group.png" height="18" style="vertical-align: text-bottom;"> **Group** tool to group it with the already fixed bottom panel.
 
 <details>
 <summary>HINT: Using insert</summary>
