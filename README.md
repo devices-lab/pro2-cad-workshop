@@ -155,6 +155,8 @@ Go back to the assembly and use the <img src="media/insert.png" height="18" styl
 
 We're done! Laser cutting files can be exported from the Part Studio. Right click on the surface and export the DXF or DWG for the specific face to cut out. You can also export STL, STEP, or 3MF files directly from the parts for 3d printing.
 
+## [Assembly Instructions](Assembly.md)
+
 ## Stretch Activities
 These activities are designed to push you beyond what we've explored in the previous walkthrough, and to allow you to continue exploring Onshape's features. Feel free to ask us if you need a hand or check out the [Onshape documentation](https://cad.onshape.com/help/Content/introduction.htm) for help.
 
