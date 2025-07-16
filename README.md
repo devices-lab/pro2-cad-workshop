@@ -118,6 +118,15 @@ After projecting features of the L and R buttons and power switch into the sketc
 
 </details>
 
+<details>
+<summary>HINT: Over-constrained! Everything went red</summary>
+
+![over constrained](media/overconstrained.png)
+If everything starts going red in your sketch, it's because you've over-constrained the geometry. The constraint solver isn't able to build a valid geometry e.g you've tried to make 3 lines all perpendicular to each other. It's easy to do this because Onshape tries to snap to create automatic constraints. If this happens don't worry, just use ctrl+z until things start looking normal again, and try again. Alternatively, if you can tell what has gone wrong, you can hover over the geometric element that is over-constrained and delete the constraints represented by the little red squares.
+
+</details>
+
+
 
 ### 9.	Clean up the edges and give the cut-outs a 3mm fillet.
 With the Trim tool remove any extra edges that create bounded regions that we don't want to extrude. Then use the <img src="media/fillet.png" height="18" style="vertical-align: text-bottom;"> **Fillet (shift+f)** tool to round off any corners with a 3mm fillet.
